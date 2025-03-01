@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Created and programmed by snatch", "🤖 Snatch's Discord Bot is online and ready to serve! 🎮 Commands are active—let's make things happen! 🚀"];
+const statusMessages = ["Created and programmed by snatch", "Spitting code & good vibes"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
